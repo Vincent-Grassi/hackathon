@@ -78,8 +78,8 @@
         <!-- sound button -->
 
         <div class="col-1">
-            <button type="button" class="btn btn-primary btn-sm">Sound On</button>
-            <button type="button" class="btn btn-secondary btn-sm">Sound Off</button>
+            <button type="button" class="btn btn-primary btn-sm soundon-button">Sound On</button>
+            <button type="button" class="btn btn-secondary btn-sm soundoff-button">Sound Off</button>
             <br>
             <h3>timer</h3>
         </div>
@@ -97,128 +97,8 @@
 
 
     <script src="https://code.jquery.com/jquery.js"></script>
-    <script>
 
-        let randomInstructor = ["Dane", "Laura", "Andrew", "Sam", "Negin", "Brown", "Darteniel", "Jade"]
-
-        let randomFloat = Math.random() * randomInstructor.length;
-        // console.log(randomFloat)
-        let randomInteger = Math.floor(randomFloat);
-        // console.log(randomInteger)
-        let randomGenerator = randomInstructor[randomInteger];
-        // console.log(randomGenerator)
-
-        $(document).ready(function () {
-
-            if (randomGenerator === "Dane") {
-
-                $(".oldest").addClass("list-group-item-warning")
-                $(".second-oldest").removeClass("list-group-item-warning")
-                $(".third-oldest").removeClass("list-group-item-warning")
-                $(".fourth-oldest").removeClass("list-group-item-warning")
-
-                $(".coding-javascript").addClass("list-group-item-warning")
-                $(".coding-html").addClass("list-group-item-warning")
-                $(".coding-css").addClass("list-group-item-warning")
-                $(".coding-python").addClass("list-group-item-warning")
-
-
-
-
-            }
-            else if (randomGenerator === "Laura") {
-                $(".oldest").removeClass("list-group-item-warning")
-                $(".second-oldest").removeClass("list-group-item-warning")
-                $(".third-oldest").addClass("list-group-item-warning")
-                $(".fourth-oldest").removeClass("list-group-item-warning")
-
-                $(".coding-javascript").addClass("list-group-item-warning")
-                $(".coding-html").addClass("list-group-item-warning")
-                $(".coding-css").addClass("list-group-item-warning")
-                $(".coding-python").addClass("list-group-item-warning")
-            }
-
-            else if (randomGenerator === "Andrew") {
-
-                $(".oldest").removeClass("list-group-item-warning")
-                $(".second-oldest").removeClass("list-group-item-warning")
-                $(".third-oldest").addClass("list-group-item-warning")
-                $(".fourth-oldest").removeClass("list-group-item-warning")
-
-                $(".coding-javascript").addClass("list-group-item-warning")
-                $(".coding-html").addClass("list-group-item-warning")
-                $(".coding-css").addClass("list-group-item-warning")
-                $(".coding-python").addClass("list-group-item-warning")
-
-            }
-
-            else if (randomGenerator === "Sam") {
-
-                $(".oldest").removeClass("list-group-item-warning")
-                $(".second-oldest").removeClass("list-group-item-warning")
-                $(".third-oldest").addClass("list-group-item-warning")
-                $(".fourth-oldest").removeClass("list-group-item-warning")
-
-                $(".coding-javascript").addClass("list-group-item-warning")
-                $(".coding-html").addClass("list-group-item-warning")
-                $(".coding-css").addClass("list-group-item-warning")
-                $(".coding-python").addClass("list-group-item-warning")
-
-            }
-
-            else if (randomGenerator === "Negin") {
-                $(".oldest").addClass("list-group-item-warning")
-                $(".second-oldest").removeClass("list-group-item-warning")
-                $(".third-oldest").removeClass("list-group-item-warning")
-                $(".fourth-oldest").removeClass("list-group-item-warning")
-
-                $(".coding-javascript").addClass("list-group-item-warning")
-                $(".coding-html").addClass("list-group-item-warning")
-                $(".coding-css").addClass("list-group-item-warning")
-                $(".coding-python").addClass("list-group-item-warning")
-
-            }
-
-            else if (randomGenerator === "Brown") {
-
-                $(".oldest").removeClass("list-group-item-warning")
-                $(".second-oldest").removeClass("list-group-item-warning")
-                $(".third-oldest").removeClass("list-group-item-warning")
-                $(".fourth-oldest").addClass("list-group-item-warning")
-
-                $(".coding-javascript").removeClass("list-group-item-warning")
-                $(".coding-html").removeClass("list-group-item-warning")
-                $(".coding-css").removeClass("list-group-item-warning")
-                $(".coding-python").removeClass("list-group-item-warning")
-
-            }
-
-            else if (randomGenerator === "Jade") {
-
-                $(".oldest").removeClass("list-group-item-warning")
-                $(".second-oldest").removeClass("list-group-item-warning")
-                $(".third-oldest").removeClass("list-group-item-warning")
-                $(".fourth-oldest").addClass("list-group-item-warning")
-
-                $(".coding-javascript").removeClass("list-group-item-warning")
-                $(".coding-html").removeClass("list-group-item-warning")
-                $(".coding-css").removeClass("list-group-item-warning")
-                $(".coding-python").removeClass("list-group-item-warning")
-
-            }
-
-
-
-
-
-
-
-
-
-
-        });
-
-    </script>
+    <script src="./script.js"> </script>
 
 </body>
 
