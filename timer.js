@@ -14,7 +14,7 @@ function updateCountdown() {
     if(seconds <= 0){
         let seconds = 15;
 
-        window.location.replace("./wireframe.html")
+        window.location.replace("./index.html")
     }
 
     
