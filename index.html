@@ -60,18 +60,21 @@
         <!-- Actual immage and guess box -->
 
         <div class="col-6">
+            <div>
+                <button id="button-start-game" type="button" name="dane" class="btn btn-light">Let's Play - "Who's That Instructor"</button>
+            </div>
             <div id="image-guessbox">
-                <div id="instructor-image">
-                    <img src="./Dane.jpeg" alt="">
+                <div id="div-instructor-image">
+                    <span><img src="./assets/dane.jpg" alt="" width="150" height="150"></span>
                 </div>
                 <div id="guess-buttons">
-                    <button type="button" class="btn btn-light">Dane</button>
-                    <button type="button" class="btn btn-light">Andrew</button>
-                    <button type="button" class="btn btn-light">Negin</button>
-                    <button type="button" class="btn btn-light">Laura</button>
-                    <button type="button" class="btn btn-light">Mr.Brown</button>
-                    <button type="button" class="btn btn-light">I forgot</button>
-                    <button type="button" class="btn btn-light">I forgot again</button>
+                    <button type="button" name="dane" class="btn btn-light">Dane</button>
+                    <button type="button" name="andrew" class="btn btn-light">Andrew</button>
+                    <button type="button" name="negin" class="btn btn-light">Negin</button>
+                    <button type="button" name="laura" class="btn btn-light">Laura</button>
+                    <button type="button" name="mr.brown" class="btn btn-light">Mr.Brown</button>
+                    <button type="button" name="sam" class="btn btn-light">Sam</button>
+                    <button type="button" name="" class="btn btn-light">I Forgot</button>
                 </div>
 
             </div>
@@ -81,9 +84,7 @@
         <!-- sound button -->
 
         <div class="col-1">
-            <button type="button" class="btn btn-primary btn-sm">Sound On</button>
-            <button type="button" class="btn btn-secondary btn-sm">Sound Off</button>
-            <br>
+            <p>Timer:</p>
             <p id="countdown">15</p>
         </div>
 
@@ -105,6 +106,7 @@
 
     <script src="./script.js"></script>
 
+    <script src="./main.js"></script>
 
 
 

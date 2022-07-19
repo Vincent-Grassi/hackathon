@@ -37,31 +37,6 @@ console.log(randomGenerator);
 
 $(document).ready(function() {
 
-$(".soundon-button").on("click", function() {
-    audioElement1.muted = false;
-    audioElement2.muted = false;
-    audioElement3.muted = false;
-    audioElement4.muted = false;
-    audioElement5.muted = false;
-    audioElement6.muted = false;
-    audioElement7.muted = false;
-    audioElement8.muted = false;
-    audioElement9.muted = false;
-    audioElement1.play();   
-});
-
-$(".soundoff-button").on("click", function() {
-    audioElement1.muted = true;
-    audioElement2.muted = true;
-    audioElement3.muted = true;
-    audioElement4.muted = true;
-    audioElement5.muted = true;
-    audioElement6.muted = true;
-    audioElement7.muted = true;
-    audioElement8.muted = true;
-    audioElement9.muted = true;
-});
-
 if (randomGenerator === "Dane") {
 
     audioElement2.play();
